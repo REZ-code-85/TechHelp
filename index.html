@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1020">
+<meta name="description" content="Techhelp - التقنية بطريقة أوضح">
+<title>الرئيسية | Techhelp</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<script defer src="assets/js/languages.js"></script>
+<script defer src="assets/js/data.js"></script>
+<script defer src="assets/js/app.js"></script>
+</head>
+<body data-page="home">
+<div id="header"></div>
+<main>
+<section class="hero container">
+  <div class="hero-copy">
+    <span class="eyebrow" data-i18n="heroBadge">عالم التقنية بين يديك</span>
+    <h1 data-i18n="heroTitle">اكتشف التقنية،<br>وافهمها بطريقتك.</h1>
+    <p data-i18n="heroText">
+      شروحات واضحة وأدوات مفيدة ومعرفة تقنية في مكان واحد.
+    </p>
+    <div class="actions">
+      <a class="button primary" href="pages/tutorials.html" data-i18n="explore">استكشف الشروحات</a>
+      <a class="button secondary" href="pages/articles.html" data-i18n="allArticles">كل المقالات</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="visual-orbit"></div>
+    <div class="visual-card">
+      <span class="visual-symbol">T.</span>
+      <small>TECHNOLOGY / KNOWLEDGE</small>
+      <strong>Learn. Build. Secure.</strong>
+      <div class="visual-bars"><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="floating floating-one">✦ AI LAB</div>
+    <div class="floating floating-two">◇ DIGITAL SAFETY</div>
+  </div>
+</section>
+
+<section class="container search-section">
+  <div>
+    <span class="eyebrow" data-i18n="knowledge">قاعدة المعرفة</span>
+    <h2 data-i18n="searchTitle">ماذا تريد أن تتعلم اليوم؟</h2>
+  </div>
+  <form class="search-form" data-search-form>
+    <input type="search" data-search-input
+      placeholder="ابحث عن مقال أو موضوع..."
+      data-i18n-placeholder="searchPlaceholder"
+      aria-label="Search">
+    <button class="button primary" type="submit" data-i18n="search">بحث</button>
+    <div class="search-results" data-search-results hidden></div>
+  </form>
+</section>
+
+<section class="container section">
+  <div class="section-heading">
+    <div>
+      <span class="eyebrow" data-i18n="browseTopics">تصفح حسب الموضوع</span>
+      <h2 data-i18n="categoriesTitle">أقسام Techhelp</h2>
+    </div>
+  </div>
+  <div class="category-grid" id="categories"></div>
+</section>
+
+<section class="feature-section">
+  <div class="container feature-inner">
+    <div>
+      <span class="eyebrow" data-i18n="ourGoal">هدفنا</span>
+      <h2 data-i18n="featureTitle">معرفة عملية.<br>خطوات واضحة.</h2>
+      <p data-i18n="featureText">
+        محتوى يساعدك على فهم التقنية واستخدام الأدوات الرقمية بوعي.
+      </p>
+      <a class="button secondary" href="pages/about.html" data-i18n="about">عن الموقع</a>
+    </div>
+    <div class="feature-panel">
+      <div class="feature-line"><span>01</span><div><b data-i18n="security">الأمن السيبراني</b><p data-i18n="securityText">حماية الحسابات والخصوصية.</p></div></div>
+      <div class="feature-line"><span>02</span><div><b data-i18n="artificialIntelligence">الذكاء الاصطناعي</b><p data-i18n="aiText">أدوات وأفكار للاستخدام اليومي.</p></div></div>
+      <div class="feature-line"><span>03</span><div><b data-i18n="tutorials">الشروحات</b><p data-i18n="tutorialsText">تعلم خطوة بخطوة.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="container section">
+  <div class="section-heading">
+    <div><span class="eyebrow" data-i18n="latest">أحدث المعرفة</span><h2 data-i18n="latestTitle">مقالات مقترحة</h2></div>
+    <a class="text-link" href="pages/articles.html" data-i18n="viewAll">عرض الكل ↗</a>
+  </div>
+  <div class="article-grid" id="latest-articles"></div>
+</section>
+</main>
+<div id="footer"></div>
+</body>
+</html>

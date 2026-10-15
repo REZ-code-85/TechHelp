@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1020">
+<meta name="description" content="Techhelp - التقنية بطريقة أوضح">
+<title>اتصل بنا | Techhelp</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<script defer src="../assets/js/languages.js"></script>
+<script defer src="../assets/js/data.js"></script>
+<script defer src="../assets/js/app.js"></script>
+</head>
+<body data-page="contact">
+<div id="header"></div>
+<main>
+<section class="container page-hero">
+  <span class="eyebrow" data-i18n="contactUs">تواصل معنا</span>
+  <h1 data-page-title>اتصل بنا</h1>
+  <p data-i18n="contactIntro">يسعدنا استقبال اقتراحاتك وملاحظاتك.</p>
+</section>
+<section class="container content-panel contact-panel">
+  <form id="contact-form">
+    <label for="name" data-i18n="name">الاسم</label>
+    <input id="name" name="name" required>
+    <label for="email" data-i18n="email">البريد الإلكتروني</label>
+    <input id="email" name="email" type="email" required>
+    <label for="message" data-i18n="message">الرسالة</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+    <button class="button primary" type="submit" data-i18n="send">إرسال</button>
+    <p class="muted" data-i18n="contactNote">النموذج تجريبي ولا يرسل الرسائل إلى خادم.</p>
+    <p id="form-status" role="status"></p>
+  </form>
+</section>
+</main>
+<div id="footer"></div>
+</body>
+</html>

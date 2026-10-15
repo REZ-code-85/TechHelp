@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1020">
+<meta name="description" content="Techhelp - التقنية بطريقة أوضح">
+<title>البرامج | Techhelp</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<script defer src="../assets/js/languages.js"></script>
+<script defer src="../assets/js/data.js"></script>
+<script defer src="../assets/js/app.js"></script>
+</head>
+<body data-page="programs">
+<div id="header"></div>
+<main>
+<section class="container page-hero">
+  <span class="eyebrow" data-i18n="knowledge">مركز المعرفة</span>
+  <h1 data-page-title>البرامج</h1>
+  <p data-page-description>البرامج - Techhelp</p>
+  <form class="search-form page-search" data-search-form>
+    <input type="search" data-search-input
+      placeholder="ابحث في المقالات..." data-i18n-placeholder="searchPlaceholder"
+      aria-label="Search articles">
+    <button class="button primary" type="submit" data-i18n="search">بحث</button>
+    <div class="search-results" data-search-results hidden></div>
+  </form>
+</section>
+<section class="container section">
+  <div class="section-heading">
+    <h2 data-i18n="sectionArticles">مقالات هذا القسم</h2>
+    <span class="muted" id="result-count"></span>
+  </div>
+  <div class="article-grid" id="page-articles" data-category="programs"></div>
+</section>
+</main>
+<div id="footer"></div>
+</body>
+</html>
